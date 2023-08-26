@@ -1,0 +1,38 @@
+body {
+  color: lightslategrey;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.cat-info {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 20px;
+  width: 800px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.cat-img {
+  display: block;
+  border-radius: 10px;
+}
+
+.cat-descr {
+  font-size: 20px;
+  text-align: justify;
+}
